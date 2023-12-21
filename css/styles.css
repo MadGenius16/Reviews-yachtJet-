@@ -162,6 +162,7 @@ ol {
     flex-basis: calc((100% - 32px) / 2);
 
 }
+}
 
 /* ==DESKTOP_1280 section-reviews== */
 
@@ -216,3 +217,99 @@ ol {
    }
 }
 /* ==DESKTOP_1440 section-reviews==*/
+
+
+/* < !-- Our yachts --> */
+
+.our-yachts-title {
+    color: #FBFBFB;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        margin-bottom: 40px;
+}
+
+.our-yachts-list {
+    display: flex;
+    background: #FBFBFB;
+    border-radius: 24px;
+}
+
+.our-yachts-list-item {
+    padding-left:16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.our-yachts-img {
+    margin-bottom: 32px;
+}
+
+.yachts-name-class {
+display: flex;
+width: 270px;
+justify-content: space-between;
+margin-left: auto;
+margin-right: auto;
+}
+
+.our-yachts-name {
+    color: #1B414B;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+}
+
+
+.our-yachts-class {
+    color: #040306;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    opacity: 0.4;
+}
+
+
+.our-yachts-categories-characteristic {
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-yachts-categories-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.our-yachts-categories-text {
+    color: #040306;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.our-yachts-characteristic-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.our-yachts-characteristic-text {
+    color: #040306;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+}
