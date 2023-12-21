@@ -37,7 +37,10 @@ ol {
     display: block;
 }
 
-
+.section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 
 
 .container {
@@ -70,7 +73,6 @@ ol {
 
 .review-list {
     display: flex;
-    margin-bottom: 80px;
 }
 
 .review-list-item {
@@ -125,6 +127,11 @@ ol {
 
  /* ==TABLET section-reviews== */
 
+ .section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
 .reviews-title {
     font-size: 48px;
 }
@@ -149,7 +156,6 @@ ol {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px;
-    margin-bottom: 150px;
 }
 
 .review-list-item {
