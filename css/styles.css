@@ -233,11 +233,13 @@ ol {
 
 .our-yachts-list {
     display: flex;
-    background: #FBFBFB;
-    border-radius: 24px;
+    margin-bottom: 40px;
+    
 }
 
 .our-yachts-list-item {
+    background: #FBFBFB;
+        border-radius: 24px;
     padding-left:16px;
     padding-right: 16px;
     padding-top: 16px;
@@ -246,9 +248,11 @@ ol {
 
 .our-yachts-img {
     margin-bottom: 32px;
+ 
 }
 
 .yachts-name-class {
+    position: relative;
 display: flex;
 width: 270px;
 justify-content: space-between;
@@ -263,10 +267,12 @@ margin-right: auto;
     line-height: 1.2;
     letter-spacing: -0.05em;
     text-transform: uppercase;
+    overflow: hidden;
 }
 
 
 .our-yachts-class {
+ 
     color: #040306;
     font-size: 12px;
     font-weight: 400;
@@ -274,9 +280,21 @@ margin-right: auto;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     opacity: 0.4;
+    margin-bottom: 32px;
 }
 
+.yachts-name-class::after {
+    content: "";
+    position: absolute;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+    bottom: 16px;
+    height: 1px;
+    width: 272px;
+    background-color: rgba(4, 3, 6, 0.10);;
 
+}
 .our-yachts-categories-characteristic {
     width: 270px;
     display: flex;
@@ -298,6 +316,7 @@ margin-right: auto;
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    opacity: 0.4;
 }
 
 .our-yachts-characteristic-list {
@@ -313,3 +332,152 @@ margin-right: auto;
         line-height: 1.18;
         letter-spacing: 0.03em;
 }
+
+.yahts-belle-anna {
+    display: none;
+}
+
+.yahts-benetti {
+    display: none;
+}
+
+.our-yachts-link {
+    display: block;
+    color: #FBFBFB;
+    width: 179px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    padding: 16px 39px;
+    border-radius: 15px;
+    border: 1px solid rgba(251, 251, 251, 0.35);
+    margin-right: auto;
+    margin-left: auto;
+    transition: color 250ms linear, background-color 250ms linear ;
+}
+
+.our-yachts-link:hover,
+.our-yachts-link:focus {
+    color: #1B414B;
+    background-color: #FBFBFB;
+
+}
+
+/* .how-made-link {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    min-width: 183px;
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    padding: 14px 40px;
+    margin-right: auto;
+    transition: color 250ms linear, border-color 250ms linear;
+}
+
+.how-made-link:hover,
+.how-made-link:focus {
+    color: #FD9222;
+    border-color: #fd9222;
+} */
+
+/* ==TABLET section-our-yachts== */
+
+@media screen and (min-width: 768px) {
+
+    .container {
+            max-width: 767px;
+            padding: 0 32px;
+        }
+
+    /* ==TABLET section-our-yachts== */
+.section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.our-yachts-title {
+    font-size: 48px;
+    margin-bottom: 75px;
+    width: 645px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.yahts-benetti {
+    display: block;
+}
+
+.our-yachts-list {
+    gap: 32px;
+    flex-direction: row;
+    margin-bottom: 50px;
+   
+
+}
+
+.our-yachts-list-item {
+flex-basis: calc((100% - 32px) / 2);
+}
+ 
+.our-yachts-name {
+    width: 147px;
+    height: 19px;
+}
+
+}
+
+/* ==DESKTOP_1280 section-our-yachts== */
+
+@media screen and (min-width: 1280px) {
+
+    .container {
+        max-width: 1280px;
+        padding: 0 50px;
+    }
+
+    /* ==DESKTOP_1280 section-reviews== */
+
+    .our-yachts-title {
+        width: 714px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .yahts-belle-anna {
+        display: block;
+    }
+
+    .our-yachts-list {
+        gap: 25px;
+    }
+
+    .our-yachts-list-item {
+        flex-basis: calc((100% - 50px) / 3);
+        
+    }
+}
+
+/* ==DESKTOP_1440 section-reviews== */
+
+@media screen and (min-width: 1440px) {
+
+    .container {
+        max-width: 1440px;
+    }
+
+    .our-yachts-list {
+        width: 1240px;
+        gap: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.our-yachts-list-item {
+        flex-basis: calc((100% - 64px) / 3);
+        
+        }
+}
+
+/* ==DESKTOP_1440 section-reviews==*/
