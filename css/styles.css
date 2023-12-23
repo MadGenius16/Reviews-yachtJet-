@@ -568,6 +568,10 @@ width: 220px;
         line-height: 1.15;
         letter-spacing: -0.02em;
 }
+
+.advantages-list-text::before {
+    width: 304px;
+}
 }
    /* ==TABLET section-reviews== */
 
