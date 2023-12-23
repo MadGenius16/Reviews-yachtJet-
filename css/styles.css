@@ -37,6 +37,19 @@ ol {
     display: block;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .section {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -252,7 +265,7 @@ ol {
 }
 
 .yachts-name-class {
-    position: relative;
+position: relative;
 display: flex;
 width: 270px;
 justify-content: space-between;
@@ -287,13 +300,12 @@ margin-right: auto;
     content: "";
     position: absolute;
     display: block;
-margin-left: auto;
-margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     bottom: 16px;
     height: 1px;
     width: 272px;
-    background-color: rgba(4, 3, 6, 0.10);;
-
+    background-color: rgba(4, 3, 6, 0.10);
 }
 .our-yachts-categories-characteristic {
     width: 270px;
@@ -344,12 +356,12 @@ margin-right: auto;
 .our-yachts-link {
     display: block;
     color: #FBFBFB;
-    width: 179px;
-    font-size: 18px;
+    width: 141px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: -0.02em;
-    padding: 16px 39px;
+    padding: 14px 31px;
     border-radius: 15px;
     border: 1px solid rgba(251, 251, 251, 0.35);
     margin-right: auto;
@@ -461,6 +473,156 @@ flex-basis: calc((100% - 32px) / 2);
         flex-basis: calc((100% - 64px) / 3);
         
         }
+}
+
+/* ==DESKTOP_1440 section-reviews==*/
+
+
+/* ==Advantages== */
+
+.advantages-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 80px 20px;
+    border-radius: 24px;
+    background: #1B414B;
+    margin-bottom: 20px;
+}
+
+.advantages-list-number {
+    color: #FBFBFB;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    margin-bottom: 36px;
+}
+
+.advantages-list-text {
+    position: relative;
+    width: 292px;
+    color: #FBFBFB;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: -0.05em;
+    opacity: 0.8;
+}
+
+.advantages-list-text::before {
+    display: block;
+    content: "";
+    width: 295px;
+    height: 2px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    background: rgba(251, 251, 251, 0.10);
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: -18px;
+}
+
+.text {
+width: 220px;
+}
+
+.advantages-img {
+    border-radius: 24px;
+}
+    
+/* ==TABLET section-reviews== */
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        max-width: 767px;
+        padding: 0 32px;
+    }
+
+    .section {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+.advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 44px 32px;
+    padding: 90px 32px;
+    margin-bottom: 32px;
+}
+
+.advantages-list-item {
+  width: 303px;
+}
+
+.advantages-list-number {
+    font-size: 32px;
+}
+
+.advantages-list-text {
+    color: #FBFBFB;
+        font-size: 13px;
+        line-height: 1.15;
+        letter-spacing: -0.02em;
+}
+}
+   /* ==TABLET section-reviews== */
+
+
+/* ==DESKTOP_1280 section-our-yachts== */
+
+@media screen and (min-width: 1280px) {
+
+.container {
+    max-width: 1280px;
+    padding: 0 50px;
+}
+
+/* ==DESKTOP_1280 section-reviews== */
+
+.advantages-list {
+    gap: 44px 44px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 50px;
+    padding-right: 62px;
+}
+
+.advantages-list-text::before {
+width: 280px;
+}
+
+.advantages-list-item {
+    width: 280px;
+}
+
+
+
+.cont-des {
+    display: flex;
+    gap: 32px;
+}
+
+}
+
+/* ==DESKTOP_1280 section-reviews== */
+
+/* ==DESKTOP_1440 section-reviews== */
+
+@media screen and (min-width: 1440px) {
+
+    .container {
+        max-width: 1440px;
+    }
+
+   .advantages-list {
+        width: 1340px;
+        padding-right: 50px;
+    }
+
 }
 
 /* ==DESKTOP_1440 section-reviews==*/
