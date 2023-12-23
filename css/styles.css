@@ -581,14 +581,13 @@ width: 220px;
     padding: 0 50px;
 }
 
-/* ==DESKTOP_1280 section-reviews== */
-
 .advantages-list {
     gap: 44px 44px;
     padding-top: 90px;
     padding-bottom: 90px;
     padding-left: 50px;
     padding-right: 62px;
+    margin-bottom: 0;
 }
 
 .advantages-list-text::before {
@@ -599,9 +598,7 @@ width: 280px;
     width: 280px;
 }
 
-
-
-.cont-des {
+.container-des {
     display: flex;
     gap: 32px;
 }
@@ -614,15 +611,23 @@ width: 280px;
 
 @media screen and (min-width: 1440px) {
 
-    .container {
-        max-width: 1440px;
+.container {
+    max-width: 1440px;
     }
 
-   .advantages-list {
-        width: 1340px;
-        padding-right: 50px;
+.advantages-list {
+    padding-right: 50px;
+    gap: 44px 32px;
     }
 
+.advantages-list-item {
+    width: 318px;
+    }
+
+.advantages-list-text::before {
+    width: 318px;
 }
+}
+
 
 /* ==DESKTOP_1440 section-reviews==*/
