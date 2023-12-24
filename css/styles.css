@@ -796,9 +796,9 @@ width: 280px;
 @media screen and (min-width: 1440px) {
 
 .container {
-    max-width: 1440px;
-    
+        max-width: 1440px;
 }
+
 
 .container-img {
     height: 807px;
@@ -808,6 +808,5 @@ width: 280px;
     width: 404px;
   
 }
-
 
 }
