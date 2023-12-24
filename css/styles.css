@@ -635,3 +635,134 @@ width: 280px;
 
 
 /* ==DESKTOP_1440 section-reviews==*/
+
+
+
+/* < !-- About us SECTION -->*/
+
+
+.about-us-wrapper {
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    background: #FBFBFB;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.about-us-title {
+    color: #1B414B;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+}
+
+.about-us-text-advantages-wrapper{
+ 
+}
+
+.about-us-text-advantages {
+    color: #1B414B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+}
+
+.about-us-text {
+    color: #040306;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    opacity: 0.4;
+}
+
+.about-us-img {
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    max-width: 100%;
+}
+
+/* ==TABLET section-about us== */
+
+@media screen and (min-width: 768px) {
+
+.container {
+    max-width: 767px;
+    padding: 0 32px;
+}
+
+.section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.about-us-title {
+    color: #1B414B;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.about-us-text-advantages {
+    font-size: 23px;
+    width: 389px;
+}
+
+.about-us-text {
+    font-size: 13px;
+    line-height: 1.15;
+    width: 385px;
+}
+
+.about-us-wrapper {
+    padding-top: 50px;
+    padding-left: 32px;
+    padding-right: 136px;
+    padding-bottom: 50px;
+}
+}
+
+/* ==TABLET section-about us== */
+
+/* ==DESKTOP_1280 section-our-yachts== */
+
+@media screen and (min-width: 1280px) {
+
+    .container {
+    max-width: 1280px;
+    padding: 0 50px;
+}
+
+.about-us-wrapper {
+    display: flex;
+    gap: 189px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+}
+
+.about-us-title {
+    width: 537px;
+    margin-bottom: 0;
+}
+
+.about-us-text-advantages-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us-text-advantages {
+    width: 354px;
+}
+
+.about-us-text {
+    width: 354px;
+}
+}
