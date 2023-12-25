@@ -674,8 +674,8 @@ width: 280px;
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 40px;
 
-  
 }
 
 .about-us-title {
@@ -688,8 +688,8 @@ width: 280px;
 }
 
 .container-img {
-    height: 775px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
     background-color: #FBFBFB;
    border-radius: 24px;
 }
@@ -713,13 +713,11 @@ width: 280px;
 }
 
 
-
 .about-us-img {
     border-bottom-left-radius: 24px;
     border-bottom-right-radius: 24px;
     max-width: 100%;
-    position: absolute;
-    bottom: -1px;
+    display: block;
 }
 
 /* ==TABLET section-about us== */
@@ -734,10 +732,6 @@ width: 280px;
 .section {
     padding-top: 75px;
     padding-bottom: 75px;
-}
-
-.container-img {
-    height: 950px;
 }
 
 .about-us-title {
@@ -777,10 +771,6 @@ width: 280px;
     padding: 0 50px;
 }
 
-.container-img {
-    height: 830px;
-}
-
 .about-us-wrapper {
     display: flex;
     justify-content: space-between;
@@ -810,11 +800,6 @@ width: 280px;
 .about-us-img {
     border-top-right-radius: 24px;
 }
-.about-us-img {
-    width: 1340px;
-    height: 470px;
- 
-}
 }
 
 /* ==DESKTOP_1280 section-our-yachts== */
@@ -823,10 +808,6 @@ width: 280px;
 
 .container {
         max-width: 1440px;
-}
-
-.container-img {
-    height: 807px;
 }
 
 .about-us-text-advantages {
