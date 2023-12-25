@@ -816,3 +816,74 @@ width: 280px;
 }
 
 }
+
+/* == section-Rent a yacht== */
+
+.rent-yacht-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.rent-yacht-title {
+    color: #FBFBFB;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 50px;
+}
+
+.rent-yacht-form-wrapper {
+
+width: 472px;
+
+}
+.form-wrapper {
+    margin-bottom: 18px;
+}
+
+
+.rent-yacht-form-input {
+    width: 100%;
+    height: 54px;
+    border-radius: 12px;
+    border: 1px solid rgba(251, 251, 251, 0.20);
+    background-color: transparent;
+    padding-left: 18px;
+    transition: border-color 250ms linear;
+    outline: 0px solid transparent;
+}
+
+.rent-yacht-form-texteria {
+    width: 100%;
+    height: 54px;
+    border-radius: 12px;
+    border: 1px solid rgba(251, 251, 251, 0.20);
+    background-color: transparent;
+    padding: 18px 18px;
+    resize: none;
+    outline: 0px solid transparent;
+    transition: border-color 250ms linear;
+    color: #FBFBFB;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29em;
+    margin-bottom: 50px;
+}
+
+.btn-rent-yacht {
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    border-radius: 15px;
+    background: #1B414B;
+    display: inline-flex;
+    padding: 18px 75px;
+    justify-content: center;
+    align-items: center;
+  
+}
